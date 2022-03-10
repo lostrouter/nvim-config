@@ -5,7 +5,8 @@ let g:ale_linters = {
       \ 'typescript': ['tsserver', 'eslint', 'prettier'],
       \ 'typescriptreact': ['tsserver', 'eslint', 'prettier'],
       \ 'json': ['prettier', 'eslint'],
-      \ 'java': ['eclipselsp']
+      \ 'java': ['eclipselsp'],
+      \ 'python': ['yapf']
      \}
 
 let g:ale_fixers = {
@@ -13,7 +14,8 @@ let g:ale_fixers = {
       \ 'javascript': ['eslint', 'prettier'],
       \ 'typescript': ['eslint', 'prettier'],
       \ 'typescriptreact': ['eslint', 'prettier'],
-      \ 'java': ['javac']
+      \ 'java': ['javac'],
+      \ 'python': ['yapf']
       \}
 
 nmap <leader>ff :ALEFix<CR>
