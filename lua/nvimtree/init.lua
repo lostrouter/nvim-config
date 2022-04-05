@@ -1,7 +1,12 @@
 require'nvim-tree'.setup({
   update_cwm=false,
   view = { 
-    autoresize = true
+    autoresize = true,
+    mappings = {
+      list = {
+        { key = "<leader><C-e>", action = "edit_in_place" }
+      } 
+    }
   }
 })
 
@@ -12,6 +17,7 @@ local g = vim.g
 function map(mode, shortcut, command)
   vim.api.nvim_set_keymap(mode, shortcut, command, { noremap = true, silent = true })
 end
+
 
 map("n","<C-e>",":NvimTreeToggle<CR>")
 map("n","<C-e>r",":NvimTreeRefresh<CR>")
