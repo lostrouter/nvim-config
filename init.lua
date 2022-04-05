@@ -18,9 +18,10 @@ require('plugins')
 require('tmuxnav')
 require('fzf')
 require('airline')
-require('NERDTree')
+-- require('NERDTree')
 require('ALE')
 require('CoC')
+require('nvimtree')
 
 
 -- https://thoughtbot.com/blog/modern-typescript-and-react-development-in-vim

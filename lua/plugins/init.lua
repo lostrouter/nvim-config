@@ -11,7 +11,6 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'dense-analysis/ale'
 Plug 'vim-test/vim-test'
 Plug 'preservim/vimux'
-Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-commentary'
@@ -24,7 +23,9 @@ Plug 'junegunn/vim-peekaboo'
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'preservim/nerdtree'
+
+Plug 'kyazdani42/nvim-web-devicons' " for file icons
+Plug 'kyazdani42/nvim-tree.lua'
 
 " git plugins
 Plug 'tpope/vim-fugitive'
