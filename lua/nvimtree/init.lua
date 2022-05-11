@@ -1,7 +1,5 @@
 require'nvim-tree'.setup({
-  update_cwm=false,
   view = { 
-    autoresize = true,
     mappings = {
       list = {
         { key = "<leader><C-e>", action = "edit_in_place" }
